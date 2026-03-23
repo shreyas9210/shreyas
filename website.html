@@ -1,0 +1,176 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Government Polytechnic Karad</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI', sans-serif;
+}
+
+body{
+background:#eef2f7;
+}
+
+header{
+background: linear-gradient(45deg,#002147,#0055a5);
+color:white;
+padding:25px;
+text-align:center;
+}
+
+nav{
+display:flex;
+justify-content:center;
+background:white;
+padding:15px;
+gap:20px;
+box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+nav a{
+text-decoration:none;
+color:#003366;
+font-weight:bold;
+padding:8px 15px;
+border-radius:20px;
+transition:0.3s;
+}
+
+nav a:hover{
+background:#0055a5;
+color:white;
+}
+
+.hero{
+text-align:center;
+padding:60px 20px;
+background:url('https://via.placeholder.com/1200x400') no-repeat center/cover;
+color:white;
+}
+
+.hero h2{
+font-size:40px;
+}
+
+.hero p{
+margin-top:10px;
+font-size:18px;
+}
+
+.container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+padding:30px;
+}
+
+.card{
+background:white;
+width:300px;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+color:#003366;
+}
+
+.card p{
+color:#555;
+margin:10px 0;
+}
+
+.btn{
+display:inline-block;
+padding:8px 15px;
+background:#0055a5;
+color:white;
+text-decoration:none;
+border-radius:20px;
+}
+
+.btn:hover{
+background:#003366;
+}
+
+footer{
+background:#002147;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+@media(max-width:768px){
+.container{
+flex-direction:column;
+align-items:center;
+}
+
+.hero h2{
+font-size:28px;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Government Polytechnic Karad</h1>
+<p>Excellence in Technical Education</p>
+</header>
+
+<nav>
+<a href="https://www.gpk.ac.in">Home</a>
+<a href="about.html" target="_blank">About</a>
+<a href="courses.html" target="_blank">Courses</a>
+<a href="contact.html" target="_blank">Contact</a>
+</nav>
+
+<section class="hero">
+<h2 style="color:blue">Welcome to GPK</h2>
+</section>
+
+<div class="container">
+
+<div class="card">
+<h3>About Us</h3>
+<p>Learn about our college, vision, mission and facilities.</p>
+<a href="about.html" target="_blank" class="btn">Read More</a>
+</div>
+
+<div class="card">
+<h3>Courses</h3>
+<p>Explore diploma programs in engineering and technology.</p>
+<a href="courses.html" target="_blank" class="btn">View Courses</a>
+</div>
+
+<div class="card">
+<h3>Contact</h3>
+<p>Reach out to us for admissions and inquiries.</p>
+<a href="contact.html" target="_blank" class="btn">Contact Now</a>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Government Polytechnic Karad | Designed by Student</p>
+</footer>
+
+</body>
+</html>
